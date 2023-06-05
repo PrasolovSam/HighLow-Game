@@ -7,6 +7,7 @@ public class Main {
         Scanner input = new Scanner(System.in);
         String playAgain = "";
        do {
+
            int number = (int) (Math.random() * 100 + 1);
            // System.out.println(number);
            int userNumber = 0;
