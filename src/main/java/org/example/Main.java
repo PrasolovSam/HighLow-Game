@@ -8,12 +8,12 @@ public class Main {
         String playAgain = "";
        do {
 
-           int number = (int) (Math.random() * 100 + 1);
+           int number = (int) (Math.random() * 200 - 100);
            // System.out.println(number);
            int userNumber = 0;
            while (number != userNumber) {
                System.out.println("Welcome to our game!" +
-                                    "\nEnter the number");
+                                    "\nEnter the number between -100 and 100");
                userNumber = input.nextInt();
                if (userNumber < number) {
                    System.out.println("It's too low");
